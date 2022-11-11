@@ -7,7 +7,7 @@
   "keywords": ["python", "django" ],
   "env": {
     "DEBUG": "True",
-    "DISABLE_COLLECTSTATIC"=1,
+    "DISABLE_COLLECTSTATIC": 1,
     "SECRET_KEY": {
       "description": "Django secret key",
       "generator": "secret"
