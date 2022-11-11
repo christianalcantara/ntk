@@ -28,3 +28,8 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test
+      env:
+        DEBUG: True
+        SECRET_KEY: 047dd1377ef7695773a682f6d12172c6ec8ec6bc
+        DOMAIN: http://localhost:8000
+        ALLOWED_HOSTS: *
