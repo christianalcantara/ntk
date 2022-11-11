@@ -15,9 +15,6 @@
       "generator": "secret"
     }
   },
-  "scripts": {
-    "postdeploy": "python manage.py loaddata apps/users/fixtures/users.json"
-  },
   "environments": {
     "test":{
       "scripts":{
