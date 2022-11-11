@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    command: ["./entrypoint"]
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"

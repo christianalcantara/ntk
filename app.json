@@ -1,0 +1,26 @@
+{
+  "name": "norktowncar",
+  "description": "A Django example to use DRF",
+  "repository": "https://github.com/christianalcantara/ntk",
+  "website": "https://github.com/christianalcantara/ntk",
+  "logo": "https://i2.wp.com/www.opengis.ch/wp-content/uploads/2020/04/django-python-logo-e1588009010920.png?resize=100%2C100&ssl=1",
+  "keywords": ["python", "django" ],
+  "env": {
+    "DEBUG": "False",
+    "SECRET_KEY": {
+      "description": "Django secret key",
+      "generator": "secret"
+    }
+  },
+  "scripts": {
+    "postdeploy": "python manage.py loaddata apps/users/fixtures/users.json"
+  },
+  "environments": {
+    "test":{
+      "scripts":{
+        "test-setup": "python manage.py collectstatic --noinput",
+        "test": "python manage.py test --settings=config.heroku_ci_test_settings"
+      }
+    }
+  }
+}
