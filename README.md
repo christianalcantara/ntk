@@ -42,8 +42,8 @@
       <a href="#usage">Usage</a>
       <ul>
         <li><a href="#authorization-token">Authorization Token</a></li>
-        <li><a href="#get-customers">Get Customers</a></li>
-        <li><a href="#get-books">Get Books</a></li>
+        <li><a href="#create-person">Create Person</a></li>
+        <li><a href="#create-car">Create Car</a></li>
       </ul>
     </li>
     <li>
