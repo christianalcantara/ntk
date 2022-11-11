@@ -19,7 +19,7 @@
   <p align="center">
     Usage example of Django Rest Framework.
     <br />
-    👽&nbsp;&nbsp;<a href="https://book-backend-rest.herokuapp.com/">View Demo</a>&nbsp;&nbsp;
+    👽&nbsp;&nbsp;<a href="https://ntkdho.herokuapp.com/">View Demo</a>&nbsp;&nbsp;
     🐛&nbsp;&nbsp;<a href="https://github.com/christianalcantara/ntk/issues">Report Bug</a>&nbsp;&nbsp;
     ✳&nbsp;&nbsp;<a href="https://github.com/christianalcantara/ntk/issues">Request Feature</a>
   </p>
@@ -60,7 +60,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://book-backend-rest.herokuapp.com/)
+[![Product Name Screen Shot][product-screenshot]](https://ntkdho.herokuapp.com/)
 
 - Modern Python development with Python 3.8+
 - Bleeding edge Django 3.0+
@@ -139,7 +139,7 @@ Use Heroku button to deploy
 
 ## Usage
 
-Clique [here](https://book-backend-rest.herokuapp.com/) to view complete API endpoints.
+Clique [here](https://ntkdho.herokuapp.com/) to view complete API endpoints.
 
 ### Authorization Token
 
