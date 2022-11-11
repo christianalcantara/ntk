@@ -8,6 +8,8 @@
   "env": {
     "DEBUG": "True",
     "DISABLE_COLLECTSTATIC": "1",
+    "DOMAIN"="http://localhost:8000",
+    "ALLOWED_HOSTS"="*",
     "SECRET_KEY": {
       "description": "Django secret key",
       "generator": "secret"
