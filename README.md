@@ -62,9 +62,8 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://ntkdho.herokuapp.com/)
 
-- Modern Python development with Python 3.8+
-- Bleeding edge Django 3.0+
-- PostgreSQL 11.6+
+- Modern Python development with Python 3.10+
+- Bleeding edge Django 4.1+
 - Complete [Django Rest Framework](http://www.django-rest-framework.org/) integration
 - Always current dependencies and security updates enforced by [pyup.io](https://pyup.io/).
 - A slim but robust foundation -- just enough to maximize your productivity, nothing more.
